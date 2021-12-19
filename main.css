@@ -45,3 +45,8 @@ ol,ul,img,p{
 #navbar li a:hover{
     background-color: thistle;
 }
+*{
+    margin: 0;
+    padding: 0;
+    
+}

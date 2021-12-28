@@ -86,5 +86,15 @@ table tr:hover{
     left: 0;
     bottom: 0;
     width: 100%;
+
+}
+.form-register{
+    position: static;
+    margin-bottom: 100px;
+
+}
+.content-form{
+    max-width: 70%;
+    margin: auto;
     
 }

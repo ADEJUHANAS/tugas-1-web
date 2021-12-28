@@ -125,6 +125,9 @@ table tr:hover{
 }
 @media(max-width:850px)
 {
+    .sidebar{
+        display: none;
+    }
     .my-portofolio img{width: 50%;}
 }
 @media(max-width:500px)
@@ -154,4 +157,40 @@ textarea{
     padding: 12px 20px;
     box-sizing: border-box;
     resize: vertical;
+}
+.grid-container{
+    display: grid;
+    margin-bottom: 100px;
+    grid-template-areas:  
+    "main main";
+}
+.article-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sidebar ul{
+    margin: 0 auto;
+    width: 50%;
+    list-style-type: none;
+    padding: 0%;
+}
+.sidebar ul li{
+    display: inline-block;
+    margin-right: 33px;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    background-color: blanchedalmond;
+    color: white;
+
+}
+.grid-container p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
 }

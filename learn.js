@@ -51,3 +51,28 @@ console.log('false || true =', false || true)
 console.log('false || false =', false || false)
 console.log('!true =', !true)
 console.log('!false =', !false)
+
+console.log("\nmembuat fungsi");
+console.log("luas persegi\n");
+function luas_persegi(lebar){
+    var panjang = 20;
+    var luas = lebar * panjang;
+    console.log(panjang + " + " + lebar + " = " + luas);
+}
+
+function luas_segitiga(alas,tinggi){
+    var luas = 0.5 * alas * tinggi;
+    console.log("0.5 * " + alas + " * " + tinggi + " = " + luas);
+}
+function volume_balok(panjang,lebar,tinggi){
+    var volume = panjang * lebar * tinggi ;
+    console.log(panjang + " * " + lebar + " * " + tinggi + " = " + volume);
+}
+luas_persegi(5);
+console.log("luas segitiga\n");
+luas_segitiga(20,15)
+console.log("volume balok\n");
+volume_balok(1,2,3);
+
+
+

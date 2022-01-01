@@ -12,3 +12,4 @@ console.log(phi)
 window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
+

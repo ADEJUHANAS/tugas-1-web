@@ -117,3 +117,31 @@ console.log("\nmethod reverse");
 hewan.reverse();
 console.log(hewan);
 
+console.log("\nobjek");
+let person = { 
+    firstName:"Ade",
+    lastName: "Juhanas",
+    id:1234,
+    alamat:"JL.Datuk Laksamana",
+    status:"Mahasiswa",
+    fullName:function(){
+        return this.firstName + " " + this.lastName + " id = " + this.id; 
+    }
+};
+
+console.log("\nmengakses dengan dot notation");
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.id);
+console.log(person.alamat);
+console.log(person.status);
+console.log(person.fullName());
+
+console.log("\nmengakses dengan bracket notation");
+console.log(person["firstName"]);
+console.log(person["lastName"]);
+console.log(person["id"]);
+console.log(person["alamat"]);
+console.log(person["status"]);
+console.log(person["fullName"]());
+

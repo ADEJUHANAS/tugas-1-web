@@ -74,5 +74,46 @@ luas_segitiga(20,15)
 console.log("volume balok\n");
 volume_balok(1,2,3);
 
+console.log("\narray");
+var hewan = ["singa" , "Harimau" , "garuda" , "serigala"];
+console.log(hewan[0]);
+console.log(hewan[1]);
+console.log(hewan[2]);
+console.log(hewan[3] + "\n");
+ 
+ hewan[1]="gajah";
+console.log (hewan);
 
+
+console.log("\nmethod push");
+hewan.push ("ayam");
+console.log(hewan);
+
+
+console.log("\nmethod pop");
+hewan.pop();
+
+console.log(hewan);
+
+console.log("\npropertylength");
+console.log(hewan.length);
+
+console.log("\nmethod unshift");
+hewan.unshift("jerapah");
+
+console.log(hewan);
+
+console.log("\nmethod shift");
+hewan.shift();
+
+console.log(hewan);
+
+console.log("\nmethod sort");
+hewan.sort();
+
+console.log(hewan);
+
+console.log("\nmethod reverse");
+hewan.reverse();
+console.log(hewan);
 
